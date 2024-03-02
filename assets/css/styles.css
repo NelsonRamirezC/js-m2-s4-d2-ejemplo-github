@@ -12,3 +12,8 @@
 .carousel-indicators {
     bottom: -70px;
 }
+
+.custom-tooltip {
+    --bs-tooltip-bg: blueviolet;
+    --bs-tooltip-color: white;
+  }
