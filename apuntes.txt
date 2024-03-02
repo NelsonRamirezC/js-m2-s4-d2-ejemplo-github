@@ -1,0 +1,27 @@
+1.- git init -> inicializa un repositorio local (se ejecuta la primera vez)
+2.- git add . -> agregamos cualquier o archivo nuevo al área de preparación
+3.- git status -> (opcional) verificamos si los cambios están ok.
+4.- git rm --cached apuntes.txt -> ejecutar si necesitamos quitar algo del área de preparación
+5.- git commit -m "aquí se agregaa el mensaje" -> ejecutamos este comando para crear una versión del proyecto
+6.- git log -> nos permite ver el registro de cambios / versiones
+7.- Crear repositorio en github
+8.- git remote add origin "ruta repositorio"
+8.1- pordemos verificar si quedó enlazado el repositorio, ejemplo:
+git remote -v
+respuesta---->
+origin  git@github.com:NelsonRamirezC/js-m2-s4-d2-ejemplo-github.git (fetch)
+origin  git@github.com:NelsonRamirezC/js-m2-s4-d2-ejemplo-github.git (push)
+9.- cambiarse a rama main (si es que no la tienen por defecto)
+10.- git push origin main -> subir proyecto a github
+
+
+comando que se repiten cuando trabajamos en el proyecto
+local:
+git add .
+git commit -m "mensaje"
+
+remoto: 
+git push origin main
+
+comandos de comparación:
+git diff index.html
